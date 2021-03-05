@@ -38,15 +38,13 @@
 }
 
 @font-face {
-  font-family: "montserratextrabold_italic";
-  src: url("montserrat-extrabolditalic-webfont.eot");
-  src: url("montserrat-extrabolditalic-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("montserrat-extrabolditalic-webfont.woff2") format("woff2"),
-    url("montserrat-extrabolditalic-webfont.woff") format("woff"),
-    url("montserrat-extrabolditalic-webfont.ttf") format("truetype"),
-    url("montserrat-extrabolditalic-webfont.svg#montserratextrabold_italic")
-      format("svg");
+  font-family: 'montserratextrabold_italic';
+  src: url('montserrat-extrabolditalic-webfont.eot');
+  src: url('montserrat-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+       url('montserrat-extrabolditalic-webfont.woff') format('woff'),
+       url('montserrat-extrabolditalic-webfont.ttf') format('truetype'),
+       url('montserrat-extrabolditalic-webfont.svg#montserratextrabold_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -61,7 +59,6 @@
        url('montserrat-mediumitalic-webfont.svg#montserratmedium_italic') format('svg');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
@@ -76,25 +73,39 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'montserratitalic';
+  src: url('montserrat-italic-webfont.eot');
+  src: url('montserrat-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('montserrat-italic-webfont.woff2') format('woff2'),
+       url('montserrat-italic-webfont.woff') format('woff'),
+       url('montserrat-italic-webfont.ttf') format('truetype'),
+       url('montserrat-italic-webfont.svg#montserratitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a{
   text-decoration: none;
-  /* color: var(--blanco); */
+  color: var(--blanco);
 }
 
 body{
   background: var(--gris);
 }
 
-input{
-  height: 22.5px;
+#search::placeholder {color: var(--azulBoton);}
+
+.search input{
   width: 161.471px;
-  border-radius: 40px;
+  border: none;
   text-align: center;
+  border-radius: 40px;
   font-family: 'montserratmedium_italic';
 }
 
-
-button{
+.signin button{
+  border: none;
   width: 57.715px;
   height: 21.582px;
   font-size: 8.07px;
@@ -105,20 +116,33 @@ button{
   font-family: "montserratextrabold_italic";
 }
 
-#search::placeholder {color: var(--azulBoton);}
+.search button{
+  border: none;
+  border-radius: 50%;
+  color: var(--blanco);
+  background: var(--azulBoton);
+  font-family: "montserratextrabold_italic";
+}
 
 .container {
   width: 596.258px;
   height: 381.69px;
   margin: 0 auto;
-  background: #fff;
+  background:var(--blanco) url("../img/vista-lateral-mujer-que-viaja-tomando-fotografia_23-2148218403.jpg") no-repeat 10px -2px;
   box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
 }
 
 .wrapper{
-  padding: 23.972px 22.972px 0 18.0784px;
+  margin: 0;
+  height: 381.69px;
+  background: url("../img/azul.png") no-repeat -20px 0px;
 }
 
+.wrapper2{
+  height: 358px;
+  padding: 23.972px 22.972px 0 18.0784px;
+  background: url("../img/amarillo.png") no-repeat 345px -46px;
+}
 .navbar{
   width: 260px;
   float: left;
@@ -142,4 +166,50 @@ button{
 
 .signin{
   float: right;
+}
+
+.info{
+  float: left;
+  width: 596.258px;
+  margin-top: 30px;
+}
+
+.info h1{
+  margin: 0;
+  font-weight: bold;
+  font-size: 29.94px;
+  color: var(--blanco);
+  font-family: 'montserratextrabold_italic';
+}
+
+.info pre{
+  margin: 0;
+  line-height: 50px;
+  font-size: 72.58px;
+  padding: 0 0 0 20px;
+  color: var(--amarillo);
+  font-family: "qwigleyregular";
+}
+
+.info h5{
+  margin: 0;
+  padding: 0;
+  font-size: 16.07px;
+  color: var(--blanco);
+  font-family: 'montserratmedium_italic';
+}
+
+.info p{
+  width: 206.699px;
+  color: var(--blanco);
+  font-family: 'montserratitalic';
+}
+
+footer button{
+  border: none;
+  width: 115px;
+  border-radius: 40px;
+  color: var(--blanco);
+  background: var(--amarillo);
+  font-family: 'montserratextrabold_italic';
 }
