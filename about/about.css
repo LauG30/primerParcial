@@ -1,0 +1,62 @@
+:root {
+  --gris: rgb(163, 159, 159);
+  --amarillo: rgb(255, 183, 0);
+  --azul: rgb(0, 50, 99);
+  --azulBoton: rgb(0, 50, 90);
+  --blanco: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: "montserrat_alternatesBdIt";
+  src: url("../fonts/montserratalternates-bolditalic-webfont.eot");
+  src: url("../fonts/montserratalternates-bolditalic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserratalternates-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserratalternates-bolditalic-webfont.woff") format("woff"),
+    url("../fonts/montserratalternates-bolditalic-webfont.ttf")
+      format("truetype"),
+    url("../fonts/montserratalternates-bolditalic-webfont.svg#montserrat_alternatesBdIt")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  /* color: var(--blanco); */
+}
+
+body {
+  background: var(--gris);
+}
+
+.wrapper {
+  height: 358px;
+  padding: 23.972px 22.972px 0 18.0784px;
+}
+
+.container {
+  width: 596.258px;
+  height: 381.69px;
+  margin: 0 auto;
+  background: var(--blanco);
+  box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+  width: 260px;
+  float: left;
+  font-size: 8.46px;
+  font-weight: bold;
+  font-family: "montserrat_alternatesBdIt";
+}
+
+.navbar > ul {
+  padding: 0;
+}
+
+.navbar > ul > li {
+  display: inline;
+  padding: 2px 8px;
+}
