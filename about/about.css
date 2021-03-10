@@ -37,9 +37,9 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   width: 596.258px;
   height: 381.69px;
-  margin: 0 auto;
   background: var(--blanco);
   box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
 }

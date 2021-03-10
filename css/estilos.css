@@ -11,7 +11,8 @@
 @font-face {
   font-family: "qwigleyregular";
   src: url("../fonts/qwigley-regular-webfont.eot");
-  src: url("../fonts/qwigley-regular-webfont.eot?#iefix")format("embedded-opentype"),
+  src: url("../fonts/qwigley-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
     url("../fonts/qwigley-regular-webfont.woff2") format("woff2"),
     url("../fonts/qwigley-regular-webfont.woff") format("woff"),
     url("../fonts/qwigley-regular-webfont.ttf") format("truetype"),
@@ -37,74 +38,111 @@
 }
 
 @font-face {
-  font-family: 'montserratextrabold_italic';
-  src: url('../montserrat-extrabolditalic-webfont.eot');
-  src: url('../montserrat-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../montserrat-extrabolditalic-webfont.woff2') format('woff2'),
-       url('../montserrat-extrabolditalic-webfont.woff') format('woff'),
-       url('../montserrat-extrabolditalic-webfont.ttf') format('truetype'),
-       url('../montserrat-extrabolditalic-webfont.svg#montserratextrabold_italic') format('svg');
+  font-family: "montserratextrabold_italic";
+  src: url("../fonts/montserrat-extrabolditalic-webfont.eot");
+  src: url("../fonts/montserrat-extrabolditalic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-extrabolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-extrabolditalic-webfont.woff") format("woff"),
+    url("../fonts/montserrat-extrabolditalic-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-extrabolditalic-webfont.svg#montserratextrabold_italic")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'montserratmedium_italic';
-  src: url('../montserrat-mediumitalic-webfont.eot');
-  src: url('../montserrat-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../montserrat-mediumitalic-webfont.woff2') format('woff2'),
-       url('../montserrat-mediumitalic-webfont.woff') format('woff'),
-       url('../montserrat-mediumitalic-webfont.ttf') format('truetype'),
-       url('../montserrat-mediumitalic-webfont.svg#montserratmedium_italic') format('svg');
+  font-family: "montserratmedium_italic";
+  src: url("../fonts/montserrat-mediumitalic-webfont.eot");
+  src: url("../fonts/montserrat-mediumitalic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-mediumitalic-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-mediumitalic-webfont.woff") format("woff"),
+    url("../fonts/montserrat-mediumitalic-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-mediumitalic-webfont.svg#montserratmedium_italic")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'montserratblack_italic';
-  src: url('../montserrat-blackitalic-webfont.eot');
-  src: url('../montserrat-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../montserrat-blackitalic-webfont.woff2') format('woff2'),
-       url('../montserrat-blackitalic-webfont.woff') format('woff'),
-       url('../montserrat-blackitalic-webfont.ttf') format('truetype'),
-       url('../montserrat-blackitalic-webfont.svg#montserratblack_italic') format('svg');
+  font-family: "montserratblack_italic";
+  src: url("../fonts/montserrat-blackitalic-webfont.eot");
+  src: url("../fonts/montserrat-blackitalic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-blackitalic-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-blackitalic-webfont.woff") format("woff"),
+    url("../fonts/montserrat-blackitalic-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-blackitalic-webfont.svg#montserratblack_italic")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'montserratitalic';
-  src: url('../montserrat-italic-webfont.eot');
-  src: url('../montserrat-italic-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../montserrat-italic-webfont.woff2') format('woff2'),
-       url('../montserrat-italic-webfont.woff') format('woff'),
-       url('../montserrat-italic-webfont.ttf') format('truetype'),
-       url('../montserrat-italic-webfont.svg#montserratitalic') format('svg');
+  font-family: "montserratitalic";
+  src: url("../fonts/montserrat-italic-webfont.eot");
+  src: url("../fonts/montserrat-italic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-italic-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-italic-webfont.woff") format("woff"),
+    url("../fonts/montserrat-italic-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-italic-webfont.svg#montserratitalic") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-a{
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?utljc9");
+  src: url("../fonts/icomoon.eot?utljc9#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?utljc9") format("truetype"),
+    url("../fonts/icomoon.woff?utljc9") format("woff"),
+    url("../fonts/icomoon.svg?utljc9#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
   text-decoration: none;
   color: var(--blanco);
 }
 
-body{
+body {
   background: var(--gris);
 }
 
-#search::placeholder {color: var(--azulBoton);}
+#search::placeholder {
+  color: var(--azulBoton);
+}
 
-.search input{
+.search input {
   width: 161.471px;
   border: none;
   text-align: center;
   border-radius: 40px;
-  background:  var(--blanco) url("../icon/loupe.svg") no-repeat 145px center;
-  font-family: 'montserratmedium_italic';
+  background: var(--blanco) url("../icon/loupe.svg") no-repeat 145px center;
+  font-family: "montserratmedium_italic";
 }
 
-.signin button{
+.signin button {
   border: none;
   width: 57.715px;
   height: 21.582px;
@@ -116,7 +154,7 @@ body{
   font-family: "montserratextrabold_italic";
 }
 
-.search button{
+.search button {
   border: none;
   border-radius: 50%;
   color: var(--blanco);
@@ -128,23 +166,25 @@ body{
   width: 596.258px;
   height: 381.69px;
   margin: 0 auto;
-  background:var(--blanco) url("../img/vista-lateral-mujer-que-viaja-tomando-fotografia_23-2148218403.jpg") no-repeat 10px -2px;
+  background: var(--blanco)
+    url("../img/vista-lateral-mujer-que-viaja-tomando-fotografia_23-2148218403.jpg")
+    no-repeat 10px -2px;
   box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
 }
 
-.wrapper{
+.wrapper {
   margin: 0;
   height: 381.69px;
   background: url("../img/azul.png") no-repeat -20px 0px;
 }
 
-.wrapper2{
+.wrapper2 {
   height: 358px;
   padding: 23.972px 22.972px 0 18.0784px;
   background: url("../img/amarillo.png") no-repeat 345px -46px;
 }
 
-.navbar{
+.navbar {
   width: 260px;
   float: left;
   font-size: 8.46px;
@@ -156,61 +196,97 @@ body{
   padding: 0;
 }
 
-.navbar > ul > li{
+.navbar > ul > li {
   display: inline;
   padding: 2px 8px;
 }
 
-.search{
+.search {
   float: left;
 }
 
-.signin{
+.signin {
   float: right;
 }
 
-.info{
+.info {
   float: left;
   width: 596.258px;
   margin-top: 30px;
 }
 
-.info h1{
+.info h1 {
   margin: 0;
   font-weight: bold;
   font-size: 29.94px;
   color: var(--blanco);
-  font-family: 'montserratextrabold_italic';
+  font-family: "montserratextrabold_italic";
 }
 
-.info pre{
+.info pre {
   margin: 0;
   line-height: 50px;
   font-size: 72.58px;
   padding: 0 0 0 20px;
+  display: inline-block;
   color: var(--amarillo);
   font-family: "qwigleyregular";
 }
 
-.info h5{
+.info h5 {
   margin: 0;
   padding: 0;
   font-size: 16.07px;
   color: var(--blanco);
-  font-family: 'montserratmedium_italic';
+  display: inline-block;
+  font-family: "montserratmedium_italic";
 }
 
-.info p{
-  width: 206.699px;
+.info p {
+  width: 250px;
+  font-size: 11px;
   color: var(--blanco);
-  font-family: 'montserratitalic';
+  display: inline-block;
+  font-family: "montserratitalic";
 }
 
-footer button{
+footer button {
   border: none;
   width: 115px;
   border-radius: 40px;
   color: var(--blanco);
   background: var(--amarillo);
-  font-family: 'montserratextrabold_italic';
+  font-family: "montserratextrabold_italic";
+}
+
+.info .social {
+  left: -23px;
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.social div {
+  color: var(--blanco);
+  padding: 3px 0px 3px 0px;
+}
+
+.social i {
+  font-size: 13px;
+}
+
+.icon-facebook:before {
+  content: "\e903";
+}
+
+.icon-instagram:before {
+  content: "\e901";
+}
+
+.icon-twitter:before {
+  content: "\e902";
+}
+
+.icon-youtube:before {
+  content: "\e900";
 }
