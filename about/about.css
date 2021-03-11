@@ -2,7 +2,7 @@
   --gris: rgb(163, 159, 159);
   --amarillo: rgb(255, 183, 0);
   --azul: rgb(0, 50, 99);
-  --azulBoton: rgb(0, 50, 90);
+  --boton: rgb(94, 167, 152);
   --blanco: rgb(255, 255, 255);
 }
 
@@ -22,16 +22,82 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "montserratbold";
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-bold-webfont.woff") format("woff"),
+    url("../fonts/montserrat-bold-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserratmedium";
+  src: url("../fonts/montserrat-medium-webfont.eot");
+  src: url("../fonts/montserrat-medium-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/montserrat-medium-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat-medium-webfont.woff") format("woff"),
+    url("../fonts/montserrat-medium-webfont.ttf") format("truetype"),
+    url("../fonts/montserrat-medium-webfont.svg#montserratmedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('../fonts/montserrat-semibold-webfont.eot');
+  src: url('../fonts/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-semibold-webfont.woff') format('woff'),
+       url('../fonts/montserrat-semibold-webfont.ttf') format('truetype'),
+       url('../fonts/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url('../fonts/montserrat-light-webfont.eot');
+  src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+       url('../fonts/montserrat-light-webfont.woff') format('woff'),
+       url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
+       url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
-  /* color: var(--blanco); */
+  color: var(--blanco);
 }
 
 body {
   background: var(--gris);
 }
 
+button{
+  top: -50px;
+  left: 30px;
+  border: none;
+  height: 30px;
+  width: 120px;
+  position: relative;
+  border-radius: 30px;
+  color: var(--blanco);
+  background: var(--boton);
+}
+
 .wrapper {
+  background: url("../img/fondoAbout.png") no-repeat -30px -15px;
+}
+
+.wrapper2 {
   height: 358px;
   padding: 23.972px 22.972px 0 18.0784px;
 }
@@ -40,7 +106,7 @@ body {
   margin: 0 auto;
   width: 596.258px;
   height: 381.69px;
-  background: var(--blanco);
+  background: var(--blanco) url("../img/mar.png") no-repeat 0px -53px;
   box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
 }
 
@@ -60,3 +126,92 @@ body {
   display: inline;
   padding: 2px 8px;
 }
+
+.content {
+  padding: 50px 0 0 0;
+}
+
+.content .chica {
+  display: inline-block;
+}
+
+.content .pareja {
+  top: 40px;
+  position: relative;
+  padding: 0 0 0 30px;
+  display: inline-block;
+}
+
+.content .playa {
+  top: 45px;
+  position: relative;
+  padding: 0 0 0 45px;
+  display: inline-block;
+}
+
+.content .bebidas {
+  top: 130px;
+  position: relative;
+  padding: 0 0 0 50px;
+  display: inline-block;
+}
+
+.content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  border: 2px solid var(--blanco);
+}
+
+.content h1 {
+  margin: 0px;
+  left: 410px;
+  top: -130px;
+  font-size: 41.34px;
+  position: relative;
+  color: var(--blanco);
+  display: inline-block;
+  font-family: "montserratbold";
+}
+
+.content div h1 {
+  font-size: 44.9px;
+}
+
+.content pre {
+  margin: 0px;
+  left: 438px;
+  top: -130px;
+  font-size: 14.97px;
+  position: relative;
+  color: var(--blanco);
+  display: inline-block;
+  font-family: "montserratmedium";
+}
+
+.content h2 {
+  margin: 0;
+  top: -65px;
+  left: -70px;
+  font-size: 17.1px;
+  position: relative;
+  color: var(--blanco);
+  display: inline-block;
+  font-family: 'montserratsemibold';
+}
+
+.content p{
+  left: 29px;
+  top: -60px;
+  margin: 0px;
+  width: 390px;
+  font-size: 6.7px;
+  position: relative;
+  color: var(--blanco);
+  font-family: 'montserratlight';
+}
+
+.content div h2 {
+  padding: 20px 0 0 98px;
+}
+
