@@ -1,8 +1,7 @@
 :root {
   --gris: rgb(163, 159, 159);
-  --amarillo: rgb(255, 183, 0);
-  --azul: rgb(0, 50, 99);
-  --azulBoton: rgb(0, 50, 90);
+  --azul: rgb(3, 37, 117);
+  --azulBoton: rgb(119, 143, 249);
   --blanco: rgb(255, 255, 255);
 }
 
@@ -22,25 +21,79 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "amaranthbold";
+  src: url("../fonts/amaranth-bold-webfont.eot");
+  src: url("../fonts/amaranth-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/amaranth-bold-webfont.woff2") format("woff2"),
+    url("../fonts/amaranth-bold-webfont.woff") format("woff"),
+    url("../fonts/amaranth-bold-webfont.ttf") format("truetype"),
+    url("../fonts/amaranth-bold-webfont.svg#amaranthbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "amaranthregular";
+  src: url("../fonts/amaranth-regular-webfont.eot");
+  src: url("../fonts/amaranth-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/amaranth-regular-webfont.woff2") format("woff2"),
+    url("../fonts/amaranth-regular-webfont.woff") format("woff"),
+    url("../fonts/amaranth-regular-webfont.ttf") format("truetype"),
+    url("../fonts/amaranth-regular-webfont.svg#amaranthregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source_sans_prolight";
+  src: url("../fonts/sourcesanspro-light-webfont.eot");
+  src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/sourcesanspro-light-webfont.woff2") format("woff2"),
+    url("../fonts/sourcesanspro-light-webfont.woff") format("woff"),
+    url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"),
+    url("../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
-  /* color: var(--blanco); */
+  color: var(--blanco);
 }
 
 body {
   background: var(--gris);
 }
 
+button {
+  left: -10px;
+  height: 20px;
+  border: none;
+  width: 100.031px;
+  margin-top: 9.45px;
+  position: relative;
+  border-radius: 30px;
+  color: var(--blanco);
+  font-family: "amaranthbold";
+  background: var(--azulBoton);
+}
+
 .wrapper {
   height: 358px;
-  padding: 23.972px 22.972px 0 18.0784px;
+  padding: 23.972px 22.972px 0 48.0784px;
+  background: url("../img/telefono.png") no-repeat 140px 110px;
 }
 
 .container {
   margin: 0 auto;
   width: 596.258px;
   height: 381.69px;
-  background: var(--blanco);
+  background: var(--blanco) url("../img/fondoContact.png") no-repeat 0px -1px;
   box-shadow: 0px 0 24px rgba(0, 0, 0, 0.7);
 }
 
@@ -59,4 +112,29 @@ body {
 .navbar > ul > li {
   display: inline;
   padding: 2px 8px;
+}
+
+.content {
+  padding: 70px 0 0 0;
+}
+
+.content h1 {
+  margin: 0px;
+  font-size: 38.05px;
+  color: var(--azul);
+  font-family: "amaranthbold";
+}
+
+.content h2 {
+  margin: 0px;
+  font-size: 14.7px;
+  color: var(--azul);
+  font-family: "amaranthregular";
+}
+
+.content p {
+  width: 143.206px;
+  font-size: 8.35px;
+  color: var(--azul);
+  font-family: "source_sans_prolight";
 }
