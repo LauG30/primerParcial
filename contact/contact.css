@@ -1,8 +1,8 @@
 :root {
-  --gris: rgb(163, 159, 159);
   --azul: rgb(3, 37, 117);
-  --azulBoton: rgb(119, 143, 249);
+  --gris: rgb(163, 159, 159);
   --blanco: rgb(255, 255, 255);
+  --azulBoton: rgb(119, 143, 249);
 }
 
 @font-face {
